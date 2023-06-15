@@ -384,7 +384,7 @@ img {
   margin: auto;
   bottom: 0;
   right: 90;
-  background-color: #5f2e8c;
+  background-color: #66127f;
   animation: flyPlus 65s linear infinite;
   -webkit-animation: flyPlus 34s linear infinite;
   transform: rotate(0) translate(400px) rotate(0);
@@ -397,14 +397,37 @@ img {
   -webkit-filter: blur(50px);
 }
 
+.animated .nine{
+  border-radius: 100%;
+  width: 1900px;
+  height: 1700px;
+  margin: auto;
+  bottom: 0;
+  right: 90;
+  background-color: #5f2e8c;
+  animation: flyPlus 59s linear infinite;
+  -webkit-animation: flyPlus 34s linear infinite;
+  transform: rotate(0) translate(400px) rotate(0);
+  -webkit-transform: rotate(0) translate(400px) rotate(0);
+  -moz-transform: rotate(0) translate(400px) rotate(0);
+  -ms-transform: rotate(0) translate(500px) rotate(0);
+  -o-transform: rotate(0) translate(200px) rotate(0);
+  filter: blur(90px);
+  opacity: 0.4;
+  -webkit-filter: blur(50px);
+  position: relative;
+  right: 400px;
+  bottom: 1800px;
+}
+
 
 .animated .four {
   border-radius: 100%;
-  width: 1100px;
+  width: 1500px;
   height: 1980px;
   bottom: 90px;
   right: 100px;
-  background-color: #5f20b8;
+  background-color: #5f2e8c;
   animation: flyPlus 10s linear infinite;
   -webkit-animation: flyPlus 10s linear infinite;
   transform: rotate(0) translate(200px) rotate(0);
