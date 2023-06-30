@@ -105,7 +105,7 @@
 .dept-card-container .deptCard .main button {
   align-items: center;
   background-clip: padding-box;
-  background-color: #61479C;
+  background-color: #61479c;
   border: 1px solid transparent;
   border-radius: 0.4rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -164,8 +164,9 @@
   font-family: "Myriad Pro Regular", serif;
   color: white;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 3.2rem;
   /* height: 50px; */
+  margin: 10px auto;
   z-index: 99;
 }
 
@@ -175,11 +176,11 @@
   height: auto;
   object-fit: cover;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .event-card-row {
-  margin: 30px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -189,14 +190,13 @@
   color: white;
   width: 300px;
   height: auto;
-  background-image: linear-gradient(to left, #C92159 10%, #A93379 90%);
+  background-image: linear-gradient(to left, #c92159 10%, #a93379 90%);
   outline: 1px solid #000000;
   box-shadow: 0px 0px 50px #000000c1;
   border-radius: 15px;
   color: #302c77;
   padding: 30px;
 }
-
 
 .eventCard h2 {
   font-family: "Myriad Pro Regular", serif;
@@ -238,8 +238,11 @@
   .eventCard {
     margin: 20px 0;
     width: 70%;
-    
-      }
+  }
+
+  .main-container .deptHeader h1 {
+    font-size: 2.3rem;
+  }
 
   .eventCard h2 {
     font-family: "Myriad Pro Regular", serif;
