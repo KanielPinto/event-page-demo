@@ -69,7 +69,7 @@ body {
 }
 
 .nav-active {
-  background-color: rgba(0, 0, 0, 0.797);
+  background-color: rgba(56, 54, 77, 0.939);
   box-shadow: 5px -1px 12px -5px grey;
 }
 
@@ -486,5 +486,28 @@ nav {
   -webkit-box-shadow: inset 0 0 6px transparent;
   background-color: gainsboro;
   z-index: 999;
+}
+
+
+
+.for-more-info-section{
+  width: 100%;
+  text-align: center;
+  margin-top: 2vh;
+}
+
+.for-more-info-section button {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  font-family: clash grotesk;
+}
+
+.for-more-info-section button:hover {
+  background-color: #C8A8CF;
+  color: #241B50;
+  transition: 0.5s;
 }
 
